@@ -1,6 +1,6 @@
 # Work-Day-Schedule
 
-# Acceptance Criteria
+## Acceptance Criteria
 ```
 1. When you open the planner,then yhe current day is displayed at the top of the calendar
 
@@ -15,5 +15,5 @@
 6. When you refresh the page, the save events persist
 ```
 
-# Mock Model of Website
+## Mock Model of Website
 ![A user cliocks on slots on the colo-coded calendar and edits the events.](./assets/images/Work-Day-Schedule.png)
