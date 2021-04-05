@@ -17,3 +17,6 @@
 
 ## Mock Model of Website
 ![A user cliocks on slots on the colo-coded calendar and edits the events.](./assets/images/Work-Day-Schedule.png)
+
+## Website Link
+https://dextervorbe.github.io/Work-Day-Schedule/
