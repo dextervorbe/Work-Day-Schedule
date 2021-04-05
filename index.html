@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+    <header class="jumbotron">
+      <h1 class="display-3">Work Day Scheduler</h1>
+      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <p id="time" class="lead"></p> 
+      <p id="currentDay" class="lead"></p>
+    </header>
+    <div class="container">
+      <!-- Timeblocks go here -->
+      <!-- Parent container - hold the time box, text input, button -->
+      <div id="time-block-1" class="row">
+        <!-- Time -->
+        <div id = "9Hour" class="col-1 border-top border-bottom">
+          <p >9AM</p>
+        </div>
+        <!-- Text Input -->
+        <input type="text" id="inputValue0" class="col border-bottom-0 border-top-0 p-3 textarea " data-hour="9"/>
+        <!-- Button -->
+        <button id="btn0" class="col-1 btn-primary saveBtn">save</button>
+      </div>
+
+      <div id="time-block-2" class="row">
+        <!-- Time -->
+        <div class="col-1 border-top border-bottom">
+          <p >10AM</p>
+        </div>
+        <!-- Text Input -->
+        <input type="text" id="inputValue1" class="col border-bottom-0 border-top-0 p-3 textarea " data-hour="10"/>
+        <!-- Button -->
+        <button id="btn1" class="col-1 btn-primary saveBtn">save</button>
+      </div>
+
+      <div id="time-block-3" class="row">
+        <!-- Time -->
+        <div class="col-1 border-top border-bottom">
+          <p >11AM</p>
+        </div>
+        <!-- Text Input -->
+        <input type="text" id="inputValue2" class="col border-bottom-0 border-top-0 p-3 textarea " data-hour="11"/>
+        <!-- Button -->
+        <button id="btn2" class="col-1 btn-primary saveBtn">save</button>
+      </div>
+
+      <div id="time-block-4" class="row">
+        <!-- Time -->
+        <div class="col-1 border-top border-bottom">
+          <p >12PM</p>
+        </div>
+        <!-- Text Input -->
+        <input type="text" id="inputValue3" class="col border-bottom-0 border-top-0 p-3 textarea " data-hour="12"/>
+        <!-- Button -->
+        <button id="btn3" class="col-1 btn-primary saveBtn">save</button>
+      </div>
+    
+
+      <div id="time-block-5" class="row">
+        <!-- Time -->
+        <div class="col-1 border-top border-bottom">
+        <p >1PM</p>
+        </div>
+        <!-- Text Input -->
+        <input type="text" id="inputValue4" class="col border-bottom-0 border-top-0 p-3 textarea" data-hour="13"/>
+        <!-- Button -->
+        <button id="btn4" class="col-1 btn-primary saveBtn">save</button>
+      </div>
+
+      <div id="time-block-6" class="row">
+        <!-- Time -->
+        <div class="col-1 border-top border-bottom">
+          <p >2PM</p>
+        </div>
+        <!-- Text Input -->
+        <input type="text" id="inputValue5" class="col border-bottom-0 border-top-0 p-3 textarea" data-hour="14"/>
+        <!-- Button -->
+        <button id="btn5" class="col-1 btn-primary saveBtn">save</button>
+      </div>
+
+      <div id="time-block-7" class="row">
+        <!-- Time -->
+        <div class="col-1 border-top border-bottom">
+          <p >3PM</p>
+        </div>
+        <!-- Text Input -->
+        <input type="text" id="inputValue6" class="col border-bottom-0 border-top-0 p-3 textarea" data-hour="15"/>
+        <!-- Button -->
+        <button id="btn6" class="col-1 btn-primary saveBtn">save</button>
+      </div>
+
+      <div id="time-block-8" class="row">
+        <!-- Time -->
+        <div class="col-1 border-top border-bottom">
+          <p >4PM</p>
+        </div>
+        <!-- Text Input -->
+        <input type="text" id="inputValue7" class="col border-bottom-0 border-top-0 p-3 textarea" data-hour="16"/>
+        <!-- Button -->
+        <button id="btn7" class="col-1 btn-primary saveBtn">save</button>
+      </div>
+      
+      <div id="time-block-9" class="row">
+        <!-- Time -->
+        <div class="col-1 border-top border-bottom">
+          <p >5PM</p>
+        </div>
+        <!-- Text Input -->
+        <input type="text" id="inputValue8" class="col border-bottom-0 border-top-0 p-3 textarea" data-hour="17"/>
+        <!-- Button -->
+        <button id="btn8" class="col-1 btn-primary saveBtn">save</button>
+      </div>
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script type ="text/javascript" src="./assets/js/script.js"></script>
+  </body>
+</html>
